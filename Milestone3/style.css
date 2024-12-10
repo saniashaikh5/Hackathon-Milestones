@@ -1,0 +1,92 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    
+}
+h1{
+    /* text-align: center; */
+    color: black;
+    text-align: center;
+    
+}
+fieldset{
+    background-color: rgb(186, 228, 213);
+   font-weight: bolder;
+   border-radius: 5px;
+   font-size: larger;
+    
+}
+fieldset legend{
+    border-radius: 5px;
+    margin-top: 4px;
+}
+fieldset textarea{
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 4px;
+}
+fieldset label{
+    font-weight: 100;
+    font-size: 15px;
+}
+form{
+    max-width: 600px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgb(0, 0, 0,0.5);
+   /* margin-left: 28%; */
+   box-sizing: border-box;
+   margin: 0 auto;
+   justify-content: center;
+}
+input{
+    border-radius: 3px;
+}
+fieldset{
+    border-radius: 8px solid rgb(106, 106, 147);
+    margin-bottom: 15px;
+}
+input,textarea{
+    /* width: calc(100%-1px); */
+    width: auto;
+    padding: 8px;
+    margin-top: 4px;
+ 
+    border-radius: 4;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+#resumeOutput{
+    max-width: 570px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498bd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+#resumeOutput h2{
+    color: #566464;
+}
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid aqua;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 160px;
+    height: 160px;
+    }
